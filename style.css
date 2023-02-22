@@ -6,24 +6,24 @@
 }
 
 body {
-    animation: changeBg 10s infinite alternate linear;
+    animation: changeBg 8s infinite alternate linear;
 }
 
     @keyframes changeBg{
         0% {
-            background-color: #30444f;
+            background-color: #223038;
         }
         25% {
-            background-color: #5b8291;
+            background-color: #476273;
         }
         50% {
-            background-color: #9bdad8;
+            background-color: #5e8298;
         }
         75% {
-            background-color: #30444f;
+            background-color: #78a5c1;
         }
     100% {
-        background-color: #5b8291;
+        background-color: #97d0f4;
     }
 }
 
@@ -37,6 +37,7 @@ body {
 
 .text h1, p {
     color: white;
+    transition: 1s;
 }
 
 .calculator {
@@ -44,6 +45,7 @@ body {
     padding: 20px;
     border-radius: 35px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 9px 15px -2px, rgba(0, 0, 0, 0.3) 0px 6px 10px -3px;
+    transition: 1s;
 }
 
 .calculator form input {
