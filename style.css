@@ -147,6 +147,33 @@ form input.operator {
     form input.equal {
         width: 110px;
     }
+}
 
-    
+@media screen and (max-width:375px) {
+
+    form input.equal {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .calculator form input {
+        width: 15px;
+        height: 15px;
+        padding: 15px;
+    }
+    form input.equal {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .calculator form input {
+        width: 15px;
+        height: 15px;
+        padding: 13px;
+    }
+    form input.equal {
+        width: 79px;
+    }
 }
